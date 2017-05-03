@@ -1,0 +1,27 @@
+*{
+
+	padding: 100px;
+	margin : 0px;
+},
+
+#container{
+
+	display: -webkit-flex;
+			display: flex;
+			-webkit-flex-flow:column wrap;
+			flex-flow:column wrap;
+			-webkit-justify-content:start;
+			justify-content: start;
+},
+
+#picture{
+
+	display: flex;
+	flex:1;
+},
+
+#song{
+
+	display: flex;
+	flex:1;
+}
